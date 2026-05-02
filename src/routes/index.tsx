@@ -46,11 +46,11 @@ function AuthPage() {
             boxShadow: "var(--shadow-soft)",
           }}
         >
-          <header className="flex items-center gap-3">
-            <img src={logo} alt="HealtHalo" className="h-12 w-12" />
+          <header className="flex items-center gap-4">
+            <img src={logo} alt="HealtHalo" className="h-20 w-20 drop-shadow-md" />
             <div>
-              <h1 className="text-xl font-semibold tracking-tight text-foreground">HealtHalo</h1>
-              <p className="text-xs text-muted-foreground">Healthy data. Clear insights.</p>
+              <h1 className="text-3xl font-semibold tracking-tight text-foreground">HealtHalo</h1>
+              <p className="text-sm text-muted-foreground">Healthy data. Clear insights.</p>
             </div>
           </header>
 
@@ -91,11 +91,11 @@ function AuthPage() {
               boxShadow: "var(--shadow-glow)",
             }}
           >
-            <div className="mb-8 flex items-center gap-3 lg:hidden">
-              <img src={logo} alt="HealtHalo" className="h-10 w-10" />
+            <div className="mb-8 flex flex-col items-center gap-3 text-center lg:hidden">
+              <img src={logo} alt="HealtHalo" className="h-20 w-20 drop-shadow-md" />
               <div>
-                <p className="font-semibold text-foreground">HealtHalo</p>
-                <p className="text-[11px] text-muted-foreground">Healthy data. Clear insights.</p>
+                <p className="text-xl font-semibold text-foreground">HealtHalo</p>
+                <p className="text-xs text-muted-foreground">Healthy data. Clear insights.</p>
               </div>
             </div>
 
